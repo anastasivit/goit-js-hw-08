@@ -2,7 +2,7 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://anastasivit.github.io/anastasivit/",
+  "homepage": "https://anastasivit.github.io/goit-js-hw-08/",
   "scripts": {
     "build": "parcel build src/*.html --public-url /anastasivit/"
   },
