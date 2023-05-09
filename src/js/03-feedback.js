@@ -14,7 +14,7 @@ const saveFormState = e => {
 
 formEl.addEventListener('input', throttle(saveFormState, 500));
 
-function losdData() {
+function loadData() {
   try {
     const data = localStorage.getItem('feedback-form-state');
     if (!data) return;
@@ -26,6 +26,7 @@ function losdData() {
     console.log(error.message);
   }
 }
+loadData();
 
 formEl.addEventListener('submit', event => {
   event.preventDefault();
