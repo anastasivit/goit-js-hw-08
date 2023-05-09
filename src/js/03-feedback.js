@@ -26,7 +26,6 @@ function losdData() {
     console.log(error.message);
   }
 }
-loadData();
 
 formEl.addEventListener('submit', event => {
   event.preventDefault();
